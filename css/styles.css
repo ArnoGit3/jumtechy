@@ -1,0 +1,19 @@
+h1{
+    color: #f1223a;
+    font-size: 50px;
+    text-shadow: 8px 8px 8px gray;
+}
+h1:hover{
+    background-color: aquamarine;
+}
+button{
+    background-color: #f1223a;
+    color: black;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+button:hover{
+    background-color: gray;
+}
