@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="bootstrapp/css/bootstrap.min.css">
+    <script src="bootstrapp/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form action="" class="m-5 bg-info rounded">
+        <h1 class="text-center text-danger">Fill this form</h1>
+        <div class="row">
+            <div class="col">
+                <label for="fname" class="form-label ms-3 fw-bold">First Name:</label>
+                <input type="text" id="fname" class="form-control w-50 ms-3 mb-3" placeholder="Enter your first name" required>
+            </div>
+            <div class="col">
+                <label for="Email" class="form-label ms-3 fw-bold">Email:</label>
+                <input type="email" id="Email" class="form-control w-50 ms-3 mb-3" placeholder="Enter your email" required>
+            </div>
+            <div class="row">
+                <label for="address" class="form-label ms-3 fw-bold">Address1:</label>
+                <input type="text" id="address" class="form-control w-50 ms-3 mb-3" placeholder="1234 Main St" required>
+            </div>
+            <div class="row">
+                <label for="address" class="form-label ms-3 fw-bold">Address2:</label>
+                <input type="text" id="address" class="form-control w-50 ms-3 mb-3" placeholder="apartment, studio, or floor" required>
+            </div>
+            <div class="col-6">
+                <label for="city" class="form-label ms-3 fw-bold">City:</label>
+                <input type="text" id="city" class="form-control w-50 ms-3 mb-3" placeholder="Enter your city">
+        </div>
+        <div class="col-3">
+            <label for="state" class="form-label ms-3 fw-bold">State:</label>
+            <select name="state" id="state" required class="col-3 form-select">
+                <option value="">---Select your state---</option>
+                <option value="florida">Florida</option>
+                <option value="california">California</option>
+                <option value="texas">Texas</option>
+                <option value="new_york">New York</option>
+            </select>
+            </div>
+        <div class="col-3">
+                <label for="zip" class="form-label ms-3 fw-bold">Zip:</label>
+                <input type="text" id="zip" class="form-control w-75 ms-3 mb-3" placeholder="Enter your zip code">
+         </div>
+            </div class="col-12">
+            <input type="checkbox" id="out" name="out" class="ms-3 mb-3">
+            <label for="out" class="form-label ms-3 fw-bold">Check me Out</label>
+        </div>
+        <div>
+        <button class="btn btn-outline-danger ms-3 mb-3">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>

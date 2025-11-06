@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>employee - data at jumtech</title>
+    <link rel="stylesheet" href="bootstrapp/css/bootstrap.min.css">
+    <script src="bootstrapp/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <h1 class="text-center">Employee Data at Jumtech</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quia provident sapiente ipsum odio suscipit, incidunt recusandae totam exercitationem repudiandae, explicabo fugit corporis quae, ab quam corrupti nisi debitis nihil!
+    Blanditiis eaque eos ipsa rerum nobis voluptate doloribus velit perferendis eius ipsum illo pariatur sapiente quod, eligendi ea voluptatibus vero quidem doloremque eveniet voluptas ut officiis minima! Facilis, exercitationem in?</p>
+    <table class="table table-bordered table-hover table-danger container">
+        <thead class="table-success">
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arnold Ongaya</td>
+                <td>0710412702</td>
+                <td>Software Engineer</td>
+                <td>$180,000</td>
+            </tr>
+            <tr>
+                <td>Bill Gaits</td>
+                <td>0710412703</td>
+                <td>Product Manager</td>
+                <td>$90,000</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>0710412704</td>
+                <td>UX Designer</td>
+                <td>$70,000</td>
+            </tr>
+            <tr>
+                <td>Maxwell Wilker</td>
+                <td>0767585889</td>
+                <td>Engineering Manager</td>
+                <td>$100,000</td>
+            </tr>
+        </tbody>
+    </table>
+    <!---bootstrap form-->
+    <h1 class="mt-3 text-center text-success text-decoration-underline">Apply for a leave now</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero maxime maiores quae cumque natus itaque et molestiae, deserunt nulla illum minus. Nihil maxime quia cupiditate nobis dicta totam tenetur sapiente.
+    Fugit ipsum minima excepturi ipsam molestiae hic debitis error, magnam sapiente ut? Tempora nobis sint pariatur itaque atque possimus, eaque exercitationem saepe asperiores officiis animi sequi iste iure fugiat deserunt!</p>
+    <form action="" class="m-5 bg-info p-5 rounded">
+        <div class="mt-3">
+        <label for="fullname" class="form-label">Full Name:</label>
+        <input type="text" placeholder="Enter Your full Name" id="fullname" required class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="email" class="form-label">Email Address:</label>
+            <input type="email" placeholder="Enter Your Email Address" id="email" required class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="reason" class="form-label">Reason for leave:</label>
+            <textarea name="reason" id="reason" cols="30" rows="5" placeholder="Enter reason for leave" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-outline-primary mt-3 mt-4 ms-3 ">Submit</button>
+    </form>
+
+
     
 </body>
 </html>
